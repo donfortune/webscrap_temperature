@@ -3,7 +3,7 @@ import time
 import requests  #get page source and save as string
 import selectorlib #extracts particular value btw h tags
 import smtplib, ssl
-from email.message import EmailMessage
+from email.message import EmailMessage  #for handling emails
 
 url = 'http://programmer100.pythonanywhere.com/'
 def scrape(url):
